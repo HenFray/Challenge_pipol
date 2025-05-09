@@ -63,3 +63,8 @@ COPY main.py .
 RUN mkdir -p /app/output
 
 CMD ["python", "main.py"]
+
+# Descomentar las siguientes líneas si se desea ejecutar el scraper de ML
+# RUN cd model_ML
+# CMD ["python", "scraper_model_ml.py"]
+

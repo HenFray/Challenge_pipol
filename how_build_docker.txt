@@ -1,3 +1,0 @@
-docker build -t yogonet-scraper .
-
-docker run --rm yogonet-scraper
