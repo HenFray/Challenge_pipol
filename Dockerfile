@@ -1,28 +1,36 @@
-# Usar una imagen base de Python
-FROM python:3.9-slim
+# Imagen base liviana
+FROM python:3.13
 
-# Establecer el directorio de trabajo dentro del contenedor
 WORKDIR /app
 
-# Instalar dependencias del sistema necesarias para Chrome y webdriver-manager
-# Actualizar lista de paquetes e instalar wget y unzip
-RUN apt-get update && apt-get install -y \
+ENV DEBIAN_FRONTEND=noninteractive
+
+# Instalar utilidades necesarias y agregar repositorio de Google Chrome
+RUN apt-get update && apt-get install -y nano --no-install-recommends \
     wget \
+    gnupg \
+    ca-certificates \
     unzip \
-    # Dependencias de Chrome
-    libglib2.0-0 \
-    libnss3 \
-    libdbus-1-3 \
-    libatk1.0-0 \
+    fonts-liberation \
+    libappindicator3-1 \
+    libasound2 \
     libatk-bridge2.0-0 \
+    libatk1.0-0 \
+    libc6 \
+    libcairo2 \
     libcups2 \
-    libdrm2 \
+    libdbus-1-3 \
     libexpat1 \
+    libfontconfig1 \
     libgbm1 \
     libgcc1 \
+    libgdk-pixbuf2.0-0 \
+    libglib2.0-0 \
+    libgtk-3-0 \
+    libnspr4 \
+    libnss3 \
     libpango-1.0-0 \
     libx11-6 \
-    libxcb1 \
     libxcomposite1 \
     libxdamage1 \
     libxext6 \
@@ -32,30 +40,26 @@ RUN apt-get update && apt-get install -y \
     libxtst6 \
     lsb-release \
     xdg-utils \
-    --no-install-recommends \
-    # Limpiar cache de apt
-    && rm -rf /var/lib/apt/lists/*
-
-# Descargar e instalar Google Chrome estable
-RUN wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb \
+    && wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | apt-key add - \
+    && echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google-chrome.list \
     && apt-get update \
-    && apt-get install -y ./google-chrome-stable_current_amd64.deb \
-    --no-install-recommends \
-    && rm google-chrome-stable_current_amd64.deb \
+    && apt-get install -y google-chrome-stable \
     && rm -rf /var/lib/apt/lists/*
 
-# Copiar el archivo de requerimientos e instalar las librerías Python
-COPY requirements.txt requirements.txt
-RUN pip install --no-cache-dir -r requirements.txt
+# Copiar requirements.txt e instalar dependencias Python
+COPY requirements.txt .
 
-# Copiar el resto del código de la aplicación (script y config)
-COPY script.py .
+RUN pip install --no-cache-dir --upgrade pip \
+    && pip install --no-cache-dir -r requirements.txt
+
+# Copiar código de la app
 COPY config/ config/
+COPY modules/ modules/
+COPY deploy.sh .
+COPY model_ML/ model_ML/
+COPY main.py .
 
-# Crear el directorio de salida
-RUN mkdir output
+# Crear carpeta de salida
+RUN mkdir -p /app/output
 
-# webdriver-manager descargará ChromeDriver automáticamente al ejecutar el script.
-
-# Comando por defecto para ejecutar el script cuando se inicie el contenedor
-CMD ["python", "script.py"]
+CMD ["python", "main.py"]
