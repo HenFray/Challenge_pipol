@@ -1,0 +1,702 @@
+{
+  "block_1.html": [
+    {
+      "xpath": "/body[1]/div[1]/div[1]/div[1]",
+      "role": "Kicker"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[1]/h2[1]/a[1]",
+      "role": "Title"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[2]/a[1]/img[1]",
+      "role": "Image_URL"
+    }
+  ],
+  "block_2.html": [
+    {
+      "xpath": "/body[1]/div[1]/div[1]/div[1]",
+      "role": "Kicker"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[1]/h2[1]/a[1]",
+      "role": "Title"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[2]/a[1]/img[1]",
+      "role": "Image_URL"
+    }
+  ],
+  "block_3.html": [
+    {
+      "xpath": "/body[1]/div[1]/div[1]/div[1]",
+      "role": "Kicker"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[1]/h2[1]/a[1]",
+      "role": "Title"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[2]/a[1]/img[1]",
+      "role": "Image_URL"
+    }
+  ],
+  "block_4.html": [
+    {
+      "xpath": "/body[1]/div[1]/div[1]/div[1]",
+      "role": "Kicker"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[1]/h2[1]/a[1]",
+      "role": "Title"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[2]/a[1]/img[1]",
+      "role": "Image_URL"
+    }
+  ],
+  "block_5.html": [
+    {
+      "xpath": "/body[1]/div[1]/div[1]/div[1]",
+      "role": "Kicker"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[1]/h2[1]/a[1]",
+      "role": "Title"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[2]/a[1]/img[1]",
+      "role": "Image_URL"
+    }
+  ],
+  "block_6.html": [
+    {
+      "xpath": "/body[1]/div[1]/div[1]/div[1]",
+      "role": "Kicker"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[1]/h2[1]/a[1]",
+      "role": "Title"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[2]/a[1]/img[1]",
+      "role": "Image_URL"
+    }
+  ],
+  "block_7.html": [
+    {
+      "xpath": "/body[1]/div[1]/div[1]/div[1]",
+      "role": "Kicker"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[1]/h2[1]/a[1]",
+      "role": "Title"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[2]/a[1]/img[1]",
+      "role": "Image_URL"
+    }
+  ],
+  "block_8.html": [
+    {
+      "xpath": "/body[1]/div[1]/div[1]/div[1]",
+      "role": "Kicker"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[1]/h2[1]/a[1]",
+      "role": "Title"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[2]/a[1]/img[1]",
+      "role": "Image_URL"
+    }
+  ],
+  "block_9.html": [
+    {
+      "xpath": "/body[1]/div[1]/div[1]/div[1]",
+      "role": "Kicker"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[1]/h2[1]/a[1]",
+      "role": "Title"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[2]/a[1]/img[1]",
+      "role": "Image_URL"
+    }
+  ],
+  "block_10.html": [
+    {
+      "xpath": "/body[1]/div[1]/div[1]/div[1]",
+      "role": "Kicker"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[1]/h2[1]/a[1]",
+      "role": "Title"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[2]/a[1]/img[1]",
+      "role": "Image_URL"
+    }
+  ],
+  "block_11.html": [
+    {
+      "xpath": "/body[1]/div[1]/div[1]/div[1]",
+      "role": "Kicker"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[1]/h2[1]/a[1]",
+      "role": "Title"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[2]/a[1]/img[1]",
+      "role": "Image_URL"
+    }
+  ],
+  "block_12.html": [
+    {
+      "xpath": "/body[1]/div[1]/div[1]/div[1]",
+      "role": "Kicker"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[1]/h2[1]/a[1]",
+      "role": "Title"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[2]/a[1]/img[1]",
+      "role": "Image_URL"
+    }
+  ],
+  "block_13.html": [
+    {
+      "xpath": "/body[1]/div[1]/div[1]/div[1]",
+      "role": "Kicker"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[1]/h2[1]/a[1]",
+      "role": "Title"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[2]/a[1]/img[1]",
+      "role": "Image_URL"
+    }
+  ],
+  "block_14.html": [
+    {
+      "xpath": "/body[1]/div[1]/div[1]/div[1]",
+      "role": "Kicker"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[1]/h2[1]/a[1]",
+      "role": "Title"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[2]/a[1]/img[1]",
+      "role": "Image_URL"
+    }
+  ],
+  "block_15.html": [
+    {
+      "xpath": "/body[1]/div[1]/div[1]/div[1]",
+      "role": "Kicker"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[1]/h2[1]/a[1]",
+      "role": "Title"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[2]/a[1]/img[1]",
+      "role": "Image_URL"
+    }
+  ],
+  "block_16.html": [
+    {
+      "xpath": "/body[1]/div[1]/div[1]/div[1]",
+      "role": "Kicker"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[1]/h2[1]/a[1]",
+      "role": "Title"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[2]/a[1]/img[1]",
+      "role": "Image_URL"
+    }
+  ],
+  "block_17.html": [
+    {
+      "xpath": "/body[1]/div[1]/div[1]/div[1]",
+      "role": "Kicker"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[1]/h2[1]/a[1]",
+      "role": "Title"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[2]/a[1]/img[1]",
+      "role": "Image_URL"
+    }
+  ],
+  "block_18.html": [
+    {
+      "xpath": "/body[1]/div[1]/div[1]/div[1]",
+      "role": "Kicker"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[1]/h2[1]/a[1]",
+      "role": "Title"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[2]/a[1]/img[1]",
+      "role": "Image_URL"
+    }
+  ],
+  "block_19.html": [
+    {
+      "xpath": "/body[1]/div[1]/div[1]/div[1]",
+      "role": "Kicker"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[1]/h2[1]/a[1]",
+      "role": "Title"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[2]/a[1]/img[1]",
+      "role": "Image_URL"
+    }
+  ],
+  "block_20.html": [
+    {
+      "xpath": "/body[1]/div[1]/div[1]/div[1]",
+      "role": "Kicker"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[1]/h2[1]/a[1]",
+      "role": "Title"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[2]/a[1]/img[1]",
+      "role": "Image_URL"
+    }
+  ],
+  "block_21.html": [
+    {
+      "xpath": "/body[1]/div[1]/div[1]/div[1]",
+      "role": "Kicker"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[1]/h2[1]/a[1]",
+      "role": "Title"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[2]/a[1]/img[1]",
+      "role": "Image_URL"
+    }
+  ],
+  "block_22.html": [
+    {
+      "xpath": "/body[1]/div[1]/div[1]/div[1]",
+      "role": "Kicker"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[1]/h2[1]/a[1]",
+      "role": "Title"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[2]/a[1]/img[1]",
+      "role": "Image_URL"
+    }
+  ],
+  "block_23.html": [
+    {
+      "xpath": "/body[1]/div[1]/div[1]/div[1]",
+      "role": "Kicker"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[1]/h2[1]/a[1]",
+      "role": "Title"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[2]/a[1]/img[1]",
+      "role": "Image_URL"
+    }
+  ],
+  "block_24.html": [
+    {
+      "xpath": "/body[1]/div[1]/div[1]/div[1]",
+      "role": "Kicker"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[1]/h2[1]/a[1]",
+      "role": "Title"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[2]/a[1]/img[1]",
+      "role": "Image_URL"
+    }
+  ],
+  "block_25.html": [
+    {
+      "xpath": "/body[1]/div[1]/div[1]/div[1]",
+      "role": "Kicker"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[1]/h2[1]/a[1]",
+      "role": "Title"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[2]/a[1]/img[1]",
+      "role": "Image_URL"
+    }
+  ],
+  "block_26.html": [
+    {
+      "xpath": "/body[1]/div[1]/div[1]/div[1]",
+      "role": "Kicker"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[1]/h2[1]/a[1]",
+      "role": "Title"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[2]/a[1]/img[1]",
+      "role": "Image_URL"
+    }
+  ],
+  "block_27.html": [
+    {
+      "xpath": "/body[1]/div[1]/div[1]/div[1]",
+      "role": "Kicker"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[1]/h2[1]/a[1]",
+      "role": "Title"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[2]/a[1]/img[1]",
+      "role": "Image_URL"
+    }
+  ],
+  "block_28.html": [
+    {
+      "xpath": "/body[1]/div[1]/div[1]/div[1]",
+      "role": "Kicker"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[1]/h2[1]/a[1]",
+      "role": "Title"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[2]/a[1]/img[1]",
+      "role": "Image_URL"
+    }
+  ],
+  "block_29.html": [
+    {
+      "xpath": "/body[1]/div[1]/div[1]/div[1]",
+      "role": "Kicker"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[1]/h2[1]/a[1]",
+      "role": "Title"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[2]/a[1]/img[1]",
+      "role": "Image_URL"
+    }
+  ],
+  "block_30.html": [
+    {
+      "xpath": "/body[1]/div[1]/div[1]/div[1]",
+      "role": "Kicker"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[1]/h2[1]/a[1]",
+      "role": "Title"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[2]/a[1]/img[1]",
+      "role": "Image_URL"
+    }
+  ],
+  "block_31.html": [
+    {
+      "xpath": "/body[1]/div[1]/div[1]/div[1]",
+      "role": "Kicker"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[1]/h2[1]/a[1]",
+      "role": "Title"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[2]/a[1]/img[1]",
+      "role": "Image_URL"
+    }
+  ],
+  "block_32.html": [
+    {
+      "xpath": "/body[1]/div[1]/div[1]/div[1]",
+      "role": "Kicker"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[1]/h2[1]/a[1]",
+      "role": "Title"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[2]/a[1]/img[1]",
+      "role": "Image_URL"
+    }
+  ],
+  "block_33.html": [
+    {
+      "xpath": "/body[1]/div[1]/div[1]/div[1]",
+      "role": "Kicker"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[1]/h2[1]/a[1]",
+      "role": "Title"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[2]/a[1]/img[1]",
+      "role": "Image_URL"
+    }
+  ],
+  "block_34.html": [
+    {
+      "xpath": "/body[1]/div[1]/div[1]/div[1]",
+      "role": "Kicker"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[1]/h2[1]/a[1]",
+      "role": "Title"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[2]/a[1]/img[1]",
+      "role": "Image_URL"
+    }
+  ],
+  "block_35.html": [
+    {
+      "xpath": "/body[1]/div[1]/div[1]/div[1]",
+      "role": "Kicker"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[1]/h2[1]/a[1]",
+      "role": "Title"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[2]/a[1]/img[1]",
+      "role": "Image_URL"
+    }
+  ],
+  "block_36.html": [
+    {
+      "xpath": "/body[1]/div[1]/div[1]/div[1]",
+      "role": "Kicker"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[1]/h2[1]/a[1]",
+      "role": "Title"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[2]/a[1]/img[1]",
+      "role": "Image_URL"
+    }
+  ],
+  "block_37.html": [
+    {
+      "xpath": "/body[1]/div[1]/div[1]/div[1]",
+      "role": "Kicker"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[1]/h2[1]/a[1]",
+      "role": "Title"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[2]/a[1]/img[1]",
+      "role": "Image_URL"
+    }
+  ],
+  "block_38.html": [
+    {
+      "xpath": "/body[1]/div[1]/div[1]/div[1]",
+      "role": "Kicker"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[1]/h2[1]/a[1]",
+      "role": "Title"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[2]/a[1]/img[1]",
+      "role": "Image_URL"
+    }
+  ],
+  "block_39.html": [
+    {
+      "xpath": "/body[1]/div[1]/div[1]/div[1]",
+      "role": "Kicker"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[1]/h2[1]/a[1]",
+      "role": "Title"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[2]/a[1]/img[1]",
+      "role": "Image_URL"
+    }
+  ],
+  "block_40.html": [
+    {
+      "xpath": "/body[1]/div[1]/div[1]/div[1]",
+      "role": "Kicker"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[1]/h2[1]/a[1]",
+      "role": "Title"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[2]/a[1]/img[1]",
+      "role": "Image_URL"
+    }
+  ],
+  "block_41.html": [
+    {
+      "xpath": "/body[1]/div[1]/div[1]/div[1]",
+      "role": "Kicker"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[1]/h2[1]/a[1]",
+      "role": "Title"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[2]/a[1]/img[1]",
+      "role": "Image_URL"
+    }
+  ],
+  "block_42.html": [
+    {
+      "xpath": "/body[1]/div[1]/div[1]/div[1]",
+      "role": "Kicker"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[1]/h2[1]/a[1]",
+      "role": "Title"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[2]/a[1]/img[1]",
+      "role": "Image_URL"
+    }
+  ],
+  "block_43.html": [
+    {
+      "xpath": "/body[1]/div[1]/div[1]/div[1]",
+      "role": "Kicker"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[1]/h2[1]/a[1]",
+      "role": "Title"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[2]/a[1]/img[1]",
+      "role": "Image_URL"
+    }
+  ],
+  "block_44.html": [
+    {
+      "xpath": "/body[1]/div[1]/div[1]/div[1]",
+      "role": "Kicker"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[1]/h2[1]/a[1]",
+      "role": "Title"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[2]/a[1]/img[1]",
+      "role": "Image_URL"
+    }
+  ],
+  "block_45.html": [
+    {
+      "xpath": "/body[1]/div[1]/div[1]/div[1]",
+      "role": "Kicker"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[1]/h2[1]/a[1]",
+      "role": "Title"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[2]/a[1]/img[1]",
+      "role": "Image_URL"
+    }
+  ],
+  "block_46.html": [
+    {
+      "xpath": "/body[1]/div[1]/div[1]/div[1]",
+      "role": "Kicker"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[1]/h2[1]/a[1]",
+      "role": "Title"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[2]/a[1]/img[1]",
+      "role": "Image_URL"
+    }
+  ],
+  "block_47.html": [
+    {
+      "xpath": "/body[1]/div[1]/div[1]/div[1]",
+      "role": "Kicker"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[1]/h2[1]/a[1]",
+      "role": "Title"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[2]/a[1]/img[1]",
+      "role": "Image_URL"
+    }
+  ],
+  "block_48.html": [
+    {
+      "xpath": "/body[1]/div[1]/div[1]/div[1]",
+      "role": "Kicker"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[1]/h2[1]/a[1]",
+      "role": "Title"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[2]/a[1]/img[1]",
+      "role": "Image_URL"
+    }
+  ],
+  "block_49.html": [
+    {
+      "xpath": "/body[1]/div[1]/div[1]/div[1]",
+      "role": "Kicker"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[1]/h2[1]/a[1]",
+      "role": "Title"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[2]/a[1]/img[1]",
+      "role": "Image_URL"
+    }
+  ],
+  "block_50.html": [
+    {
+      "xpath": "/body[1]/div[1]/div[1]/div[1]",
+      "role": "Kicker"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[1]/h2[1]/a[1]",
+      "role": "Title"
+    },
+    {
+      "xpath": "/body[1]/div[1]/div[2]/a[1]/img[1]",
+      "role": "Image_URL"
+    }
+  ]
+}
