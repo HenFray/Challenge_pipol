@@ -50,15 +50,15 @@ El script `deploy.sh` también espera un archivo `config/config_deploy.env` que 
 El archivo `how_build_docker.txt` indica los siguientes comandos para construir y ejecutar la imagen Docker. **Nota:** Necesitarás un `Dockerfile` en la raíz de tu proyecto para que estos comandos funcionen. El contenido del `Dockerfile` definirá cómo se construye la imagen y qué script se ejecuta por defecto.
 
 1.  **Construir la imagen Docker:**
-    Asume que tu imagen se llamará `yogonet-scraper`.
+    Asume que tu imagen se llamará `pipol`.
     ```bash
-    docker build -t yogonet-scraper .
+    docker buildx build -t pipol .
     ```
 
 2.  **Ejecutar el contenedor Docker:**
     Esto ejecutará el comando por defecto especificado en el `ENTRYPOINT` o `CMD` de tu `Dockerfile` (probablemente `python main.py`).
     ```bash
-    docker run --rm yogonet-scraper
+    docker run pipol
     ```
     * Para ejecutar `scraper_model_ia.py` dentro de Docker, puedes:
         * Modificar el `Dockerfile` para que este sea el script por defecto.
