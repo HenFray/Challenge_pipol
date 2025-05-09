@@ -50,11 +50,7 @@ El script `deploy.sh` también espera un archivo `config/config_deploy.env` que 
 Para construir y ejecutar la imagen Docker, utiliza los siguientes comandos. **Nota:** Necesitarás un `Dockerfile` en la raíz de tu proyecto para que estos comandos funcionen. El contenido del `Dockerfile` definirá cómo se construye la imagen y qué script se ejecuta por defecto.
 
 1.  **Construir la imagen Docker:**
-<<<<<<< HEAD
     Esto construirá la imagen con el tag `pipol`.
-=======
-    Asume que tu imagen se llamará `pipol`.
->>>>>>> 9ae5fbf0a205320bff2253d755b3e784d9cf152d
     ```bash
     docker buildx build -t pipol .
     ```
@@ -62,11 +58,7 @@ Para construir y ejecutar la imagen Docker, utiliza los siguientes comandos. **N
 2.  **Ejecutar el contenedor Docker:**
     Esto ejecutará el comando por defecto especificado en el `ENTRYPOINT` o `CMD` de tu `Dockerfile` (probablemente `python main.py` [cite: 7]).
     ```bash
-<<<<<<< HEAD
     docker run --rm pipol
-=======
-    docker run pipol
->>>>>>> 9ae5fbf0a205320bff2253d755b3e784d9cf152d
     ```
     * Para ejecutar `model_ML/scraper_model_ml.py` dentro de Docker, puedes:
         * Modificar el `Dockerfile` para que este sea el script por defecto.
@@ -200,8 +192,4 @@ Los scripts para entrenar el modelo de Machine Learning se encuentran en la carp
         ```bash
         python model_ML/training_model/train_model.py
         ```
-<<<<<<< HEAD
     * **Nota sobre NLTK**: El script `train_model.py` [cite: 17] intentará verificar y descargar los recursos `stopwords` de NLTK si no los encuentra. Si la descarga automática falla, es posible que necesites ejecutarla manualmente en un intérprete de Python como se mencionó anteriormente.
-=======
-    * **Nota sobre NLTK**: El script `train_model.py` intentará verificar y descargar los recursos `stopwords` de NLTK si no los encuentra. Si la descarga automática falla, es posible que necesites ejecutarla manualmente en un intérprete de Python como se mencionó anteriormente.
->>>>>>> 9ae5fbf0a205320bff2253d755b3e784d9cf152d
